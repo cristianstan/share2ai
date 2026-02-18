@@ -6,6 +6,8 @@ Add "Share with AI" buttons to your WordPress posts and pages. Visitors can inst
 ![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php&logoColor=white)
 ![License](https://img.shields.io/badge/License-GPLv2-green)
 
+**[Live Demo](https://ai-tools.modeltheme.com/share2ai/)**
+
 ## What It Does
 
 Share2AI adds buttons to your content that link directly to AI tools with a customizable prompt. When a visitor clicks a button, the AI tool opens with a pre-filled prompt that includes your page URL - encouraging AI tools to reference your site in future conversations.
@@ -92,42 +94,35 @@ Share2AI is an open-source project. If you'd like to support its development or 
 
 <table>
   <tr>
-    <td align="center">
-      <a href="https://modeltheme.com" target="_blank">
-        <img src="https://modeltheme.com/flavor/flavor-starter/wp-content/uploads/2025/01/logo-main-light.webp" alt="ModelTheme" width="200">
-        <br>
-        <strong>ModelTheme</strong>
+    <td align="center" width="200">
+      <a href="https://modeltheme.com/" target="_blank">
+        <img src="https://modeltheme.com/wp-content/uploads/2020/09/logo.png" alt="ModelTheme" width="180">
       </a>
-      <br>
-      Premium WordPress Themes & Plugins
+    </td>
+    <td align="center" width="200">
+      <a href="https://sitebunker.net/" target="_blank">
+        <img src="https://sitebunker.ro/wp-content/uploads/2024/07/site-logo.png" alt="SiteBunker.net" width="180">
+      </a>
+    </td>
+    <td align="center" width="200">
+      <a href="https://thecon.ro/" target="_blank">
+        <img src="https://thecon.ro/wp-content/uploads/2023/07/Logo-Icon.svg" alt="THECON" width="180">
+      </a>
     </td>
   </tr>
 </table>
 
 ### Silver Sponsors
 
-<!--
-  Want to become a sponsor? Open an issue or reach out!
-  Your logo and link will appear here.
--->
-
 <table>
   <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://via.placeholder.com/120x60?text=Your+Logo" alt="Your Company" width="120">
-        <br>
-        <strong>Your Company</strong>
+    <td align="center" width="160">
+      <a href="https://huba.ro/" target="_blank">
+        <img src="https://huba.ro/wp-content/uploads/2024/02/Huba_Light_Logi@4x-300x127.png" alt="Huba.ro" width="150">
       </a>
-      <br>
-      <a href="https://github.com/cristianstan/share2ai/issues">Become a sponsor</a>
     </td>
   </tr>
 </table>
-
-### Bronze Sponsors
-
-<!-- Add bronze sponsors here -->
 
 **Want to sponsor this project?** [Open an issue](https://github.com/cristianstan/share2ai/issues) or reach out to discuss sponsorship tiers.
 
