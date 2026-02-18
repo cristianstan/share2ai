@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(del \"C:\\\\Users\\\\click\\\\Desktop\\\\localwp-sites\\\\meeeksaas\\\\app\\\\public\\\\wp-content\\\\plugins\\\\share2ai\\\\styles.css\")",
-      "Bash(del \"C:\\\\Users\\\\click\\\\Desktop\\\\localwp-sites\\\\meeeksaas\\\\app\\\\public\\\\wp-content\\\\plugins\\\\share2ai\\\\scripts.js\")"
-    ]
-  }
-}
