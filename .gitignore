@@ -1,0 +1,31 @@
+# IDE and local settings
+.claude/
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# WordPress local config
+wp-config-local.php
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build artifacts
+dist/
+build/
+.cache/
+*.tmp
+*.temp
