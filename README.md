@@ -106,7 +106,7 @@ Share2AI is an open-source project. If you'd like to support its development or 
     </td>
     <td align="center" width="200">
       <a href="https://thecon.ro/" target="_blank">
-        <img src="https://thecon.ro/wp-content/uploads/2023/07/Logo-Icon.svg" alt="THECON" width="180">
+        <img src="https://openhub.ro/wp-content/uploads/2023/09/Thecon.png" alt="THECON" width="180">
       </a>
     </td>
   </tr>
