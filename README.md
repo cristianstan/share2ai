@@ -96,17 +96,17 @@ Share2AI is an open-source project. If you'd like to support its development or 
   <tr>
     <td align="center" width="200">
       <a href="https://modeltheme.com/" target="_blank">
-        <img src="https://modeltheme.com/wp-content/uploads/2020/09/logo.png" alt="ModelTheme" width="180">
+        <img src="https://raw.githubusercontent.com/cristianstan/share2ai/main/assets/images/sponsors/modeltheme.png" alt="ModelTheme" width="180">
       </a>
     </td>
     <td align="center" width="200">
       <a href="https://sitebunker.net/" target="_blank">
-        <img src="https://sitebunker.ro/wp-content/uploads/2024/07/site-logo.png" alt="SiteBunker.net" width="180">
+        <img src="https://raw.githubusercontent.com/cristianstan/share2ai/main/assets/images/sponsors/sitebunker.png" alt="SiteBunker.net" width="180">
       </a>
     </td>
     <td align="center" width="200">
       <a href="https://thecon.ro/" target="_blank">
-        <img src="https://openhub.ro/wp-content/uploads/2023/09/Thecon.png" alt="THECON" width="180">
+        <img src="https://raw.githubusercontent.com/cristianstan/share2ai/main/assets/images/sponsors/thecon.png" alt="THECON" width="180">
       </a>
     </td>
   </tr>
@@ -118,7 +118,7 @@ Share2AI is an open-source project. If you'd like to support its development or 
   <tr>
     <td align="center" width="160">
       <a href="https://huba.ro/" target="_blank">
-        <img src="https://huba.ro/wp-content/uploads/2024/02/Huba_Light_Logi@4x-300x127.png" alt="Huba.ro" width="150">
+        <img src="https://raw.githubusercontent.com/cristianstan/share2ai/main/assets/images/sponsors/huba.png" alt="Huba.ro" width="150">
       </a>
     </td>
   </tr>
@@ -132,4 +132,4 @@ This project is licensed under the GPLv2 or later - see the [LICENSE](https://ww
 
 ## Credits
 
-Built by [ModelTheme](https://modeltheme.com).
+Built by  [Cristian Stan](https://cristianstan.co) & [ModelTheme](https://modeltheme.com).
