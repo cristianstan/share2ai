@@ -1,0 +1,14 @@
+/**
+ * Share2AI – Admin styles.
+ *
+ * @package Share2AI
+ */
+
+.share2ai-admin-section-title {
+	margin: 20px 0 15px 0;
+}
+
+.share2ai-admin-section-desc {
+	margin-bottom: 15px;
+	font-style: italic;
+}

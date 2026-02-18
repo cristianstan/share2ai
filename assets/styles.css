@@ -1,0 +1,239 @@
+/* ==========================================================================
+   Share2AI – Front-end Button Styles
+   ========================================================================== */
+
+.share2ai-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+	margin: 20px 0;
+	padding: 16px 0;
+	border-top: 1px solid #e0e0e0;
+}
+
+.share2ai-label {
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+	margin-right: 4px;
+}
+
+/* Base button */
+.share2ai-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 12px 18px;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	transition: all 0.2s ease;
+	color: #333;
+	line-height: 1;
+	background-color: #fff;
+	border: 1px solid #d0d0d0;
+}
+
+.share2ai-btn:hover {
+	border-color: #999;
+	background-color: #fafafa;
+	text-decoration: none;
+	color: #333;
+}
+
+.share2ai-btn:active {
+	background-color: #f0f0f0;
+}
+
+/* Brand icon colors - tint the SVG with filter */
+.share2ai-btn-chatgpt::before {
+	filter: hue-rotate(0deg) saturate(1.2);
+}
+
+.share2ai-btn-perplexity::before {
+	filter: hue-rotate(0deg) saturate(1.2);
+}
+
+.share2ai-btn-google::before {
+	filter: hue-rotate(0deg) saturate(1.2);
+}
+
+.share2ai-btn-claude::before {
+	filter: hue-rotate(0deg) saturate(1.2);
+}
+
+.share2ai-btn-grok::before {
+	filter: invert(1) brightness(0.3);
+}
+
+/* SVG icon placeholders via ::before */
+.share2ai-btn::before {
+	content: "";
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	flex-shrink: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.share2ai-icon-chatgpt::before {
+	background-image: url("./images/chatgpt.svg");
+}
+
+.share2ai-icon-perplexity::before {
+	background-image: url("./images/perplexity.svg");
+}
+
+.share2ai-icon-google::before {
+	background-image: url("./images/google.svg");
+}
+
+.share2ai-icon-claude::before {
+	background-image: url("./images/claude.svg");
+}
+
+.share2ai-icon-grok::before {
+	background-image: url("./images/grok.svg");
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 480px) {
+	.share2ai-buttons {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.share2ai-btn {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+/* ==========================================================================
+   Floating Panel Styles
+   ========================================================================== */
+
+.share2ai-floating-panel {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+	padding: 16px;
+	background-color: rgba(230, 245, 255, 0.95);
+	border-radius: 12px;
+	box-shadow: -2px 0px 32px 0px rgba(24, 99, 220, 0.16), 2px 2px 23px 0px rgba(45, 173, 112, 0.15);
+	z-index: 999;
+	backdrop-filter: blur(8px);
+}
+
+.share2ai-floating-left {
+	left: 20px;
+}
+
+.share2ai-floating-right {
+	right: 20px;
+}
+
+.share2ai-floating-panel .share2ai-btn {
+	padding: 10px;
+	width: 48px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	gap: 0;
+	font-size: 0;
+	border: 1.5px solid rgba(100, 180, 220, 0.3);
+	background-color: #fff;
+	position: relative;
+}
+
+.share2ai-floating-panel .share2ai-btn:hover {
+	background-color: #f0f9ff;
+	border-color: rgba(100, 180, 220, 0.6);
+	box-shadow: 0 2px 8px rgba(100, 180, 220, 0.2);
+}
+
+.share2ai-floating-panel .share2ai-btn::before {
+	width: 20px;
+	height: 20px;
+}
+
+/* Custom Tooltip Styles */
+.share2ai-tooltip {
+	position: fixed;
+	background-color: #fff;
+	text-align: center;
+	color: #2d3748;
+	padding: 10px 16px;
+	border-radius: 10px;
+	font-weight: 400;
+	line-height: 1.5;
+	white-space: normal;
+	max-width: 240px;
+	z-index: 10000;
+	pointer-events: none;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.2s ease, visibility 0.2s ease;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.share2ai-tooltip.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+.share2ai-tooltip-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+
+/* Arrow positioning for tooltips above the button */
+.share2ai-tooltip.top .share2ai-tooltip-arrow {
+	bottom: -8px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-width: 8px 8px 0 8px;
+	border-color: #a8ede8 transparent transparent transparent;
+}
+
+/* Arrow positioning for tooltips on the right (left panel) */
+.share2ai-tooltip.right .share2ai-tooltip-arrow {
+	left: -8px;
+	top: 50%;
+	transform: translateY(-50%);
+	border-width: 8px 8px 8px 0;
+	border-color: transparent #a8ede8 transparent transparent;
+}
+
+/* Arrow positioning for tooltips on the left (right panel) */
+.share2ai-tooltip.left .share2ai-tooltip-arrow {
+	right: -8px;
+	top: 50%;
+	transform: translateY(-50%);
+	border-width: 8px 0 8px 8px;
+	border-color: transparent transparent transparent #fff;
+}
+
+.share2ai-floating-panel .share2ai-btn::before {
+	width: 20px;
+	height: 20px;
+}
+
+/* Responsive: hide floating panel on small screens */
+@media (max-width: 768px) {
+	.share2ai-floating-panel {
+		display: none;
+	}
+}
